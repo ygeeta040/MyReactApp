@@ -1,0 +1,148 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,body{
+  align-items: center;
+
+  
+  height: 100vh;
+  place-items:center;
+  background-image: url('1.jfif');
+  box-sizing: border-box;
+background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.main_div{
+
+  margin: auto;
+  width: 365px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+}
+.img2{
+  text-align: center;
+  align-items: center;
+  height: 110px;
+  width: 220px;
+  padding-right: 10px;
+  padding-left: 90px;
+} 
+
+
+form {
+  margin-top: 25px;
+}
+form .input_box{
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+}
+.input_box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 45px;
+  font-size: 17px;
+  
+}
+
+.input_box .icon{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: grey;
+}
+form .opt{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.option .check_box{
+  display: flex;
+  align-items: center;
+}
+.option span{
+  margin-left: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.option .forget_div a{
+  font-size: 16px;
+  color: rgb(45, 93, 252);;
+}
+.button input{
+  padding-left: 0;
+  background: rgb(45, 93, 252);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.main_div .socialmedia{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.socialmedia a{
+  display: block;
+  height: 45px;
+  width: 100%;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  
+}
+.socialmedia a span{
+  margin-left: 5px;
+  font-size: 18px;
+  height: 30px;
+  width: 50px;
+}
+.socialmedia a:first-child{
+  margin-right: 5px;
+  background: #4267B2;
+}
+
+.socialmedia a:last-child{
+  margin-left: 5px;
+  background: #1DA1F2;
+}
+.socialmedia a:last-child:hover{
+  background: #0d8bd9;
+}
+.button input:hover{
+  background: lightblue;
+  color: black;
+}
+form .signup{
+  text-align: center;
+  margin-top: 25px;
+}
+.signup a{
+  color: rgb(45, 93, 252);;
+}
+form a{
+  text-decoration: none;
+}
+form a:hover{
+  text-decoration: underline;
+}
+
+    
